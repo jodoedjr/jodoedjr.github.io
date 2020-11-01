@@ -1,0 +1,22 @@
+.MyNav {
+    background-color: #3CC47C;
+}
+.NavBrand h4 {
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.nav-style h5 {
+    color: #1E392A;
+    margin-left:  20px;
+    margin-right: 10px;
+}
+.nav-style h5:active{
+    color: #E9C893;
+}
+.nav-style h5:hover{
+    color: #828081;
+}
+.current-page{
+    color: #E9C893;
+}
