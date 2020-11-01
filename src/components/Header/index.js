@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import { FaGithub, FaLinkedin, FaMailBulk } from 'react-icons/fa';
 import Mailto from "../Mailto";
@@ -7,12 +8,12 @@ import "./style.css";
 const Header = (props) => {
     return (
         <Navbar expand="lg" className="MyNav">
-            <Navbar.Brand className="NavBrand" href="/home"><h4>John Edwards</h4></Navbar.Brand>
+            <Navbar.Brand className="NavBrand" to="/"><h4>John Edwards</h4></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto nav-style">
-                    <Nav.Link href="/home"><h5>Home</h5></Nav.Link>
-                    <Nav.Link href="/projects"><h5>Projects</h5></Nav.Link>
+                    <Nav.Link><Link to="/"><h5>Home</h5></Link></Nav.Link>
+                    <Nav.Link><Link to="/projects"><h5>Projects</h5></Link></Nav.Link>
                     <div className="justify-content-end">
                         <Navbar.Text><a href="https://github.com/jodoedjr"><h5><FaGithub /></h5></a></Navbar.Text>
                         <Navbar.Text><a href="https://www.linkedin.com/in/john-edwards-15b638bb/"><h5><FaLinkedin /></h5></a></Navbar.Text>

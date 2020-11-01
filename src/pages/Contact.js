@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Row, Col, Form, Container, Button } from "react-bootstrap";
+import { Card, Form, Container, Button } from "react-bootstrap";
 import Mailto from "../components/Mailto";
 // import Nav from "../components/Nav";
 

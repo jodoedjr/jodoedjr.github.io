@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, CardColumns, Card } from "react-bootstrap";
+import { Container, CardColumns, Card } from "react-bootstrap";
 // import { RightCard, LeftCard, BackgroundCard } from "../components/MyCards/";
 import BudgetIMG from "../projects/budget-app-screenshot.png";
 import CanIEatItIMG from "../projects/Can-I-Eat-It-Screenshot.png";
@@ -58,12 +58,12 @@ let currentProjects = [
 
 // shuffleArray(currentProjects);
 
-function shuffleArray(array) {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-}
+// function shuffleArray(array) {
+//   for (let i = array.length - 1; i > 0; i--) {
+//     const j = Math.floor(Math.random() * (i + 1));
+//     [array[i], array[j]] = [array[j], array[i]];
+//   }
+// }
 
 const Projects = () => {
   return (
