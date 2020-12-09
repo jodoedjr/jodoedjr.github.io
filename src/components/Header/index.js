@@ -7,8 +7,9 @@ import "./style.css";
 
 const Header = (props) => {
     return (
-        <Navbar expand="lg" className="MyNav">
-            <Navbar.Brand className="NavBrand" to="/"><h4>John Edwards</h4></Navbar.Brand>
+        <Navbar expand="lg" className="bg-dark">
+            {/* className="MyNav" */}
+            <Navbar.Brand className="NavBrand"><h4><Link className="white-text" to="/">John Edwards</Link></h4></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto nav-style">

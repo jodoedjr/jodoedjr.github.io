@@ -2,12 +2,13 @@
     background-color: #3CC47C;
 }
 .NavBrand h4 {
-    color: white;
+    /* color: white; */
     margin-left: 40px;
     margin-right: 40px;
 }
 .nav-style h5 {
-    color: #1E392A;
+    /* color: #1E392A; */
+    color: #3cc47c;
     margin-left:  20px;
     margin-right: 10px;
 }
@@ -19,4 +20,7 @@
 }
 .current-page{
     color: #E9C893;
+}
+.white-text{
+    color: white;
 }

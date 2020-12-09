@@ -1,19 +1,61 @@
 .name-style {
-    font-size: 50px;
-    color: #1E392A;
-    -webkit-text-stroke: 2px black;
+  font-size: 60px;
+  /* color: #1E392A; */
+  /* color: #3CC47C; */
+  color: white;
+  -webkit-text-stroke: 2px black;
 }
 
 .about-me {
-    color: white;
-    font-size: 20px;
-    
+  color: white;
+  /* color: black; */
+  /* font-size: 20px; */
+  font-size: 1.3em;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.bottom-space {
+  margin-bottom: 40px;
 }
 
 .ul-no-bullets {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .resume-button {
-    color: white;
+  color: white;
+}
+
+.image-style {
+  /* width: 400px; */
+  /* height: 300px; */
+
+  border-radius: 60px;
+}
+
+.intro-style {
+  /* padding-left: 90px; */
+  /* color: "#E9C893"; */
+  color: #3cc47c;
+}
+
+.card-style {
+  /* backgroundColor: #1E392A; */
+  /* background-color:  #3CC47C; */
+  background-color: #00003e;
+  border-radius: 30px;
+  border-width: 0px;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 992px) {
+  .image-style {
+    margin-right: 10px;
+  }
 }

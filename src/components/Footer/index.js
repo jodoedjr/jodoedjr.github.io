@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Navbar} from "react-bootstrap";
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import Mailto from "../Mailto";
+import "./style.css";
 
 
 const Footer = (props) => {
